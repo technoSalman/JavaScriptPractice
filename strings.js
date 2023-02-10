@@ -156,8 +156,82 @@
 // console.log(swapcase("AaBbcvcvcvWWWW"));
 
 //11. Write a JavaScript function to convert a string into camel case
-function camelize(input){
-  
-}
+// function camelize(input){
+//   let arrayOfInput = input.split(" ");
+//   arrayOfInput[]
+// }
 
-console.log(camelize("JavaScript Exercises"));
+// console.log(camelize("JavaScript Exercises"));
+
+//12. 12. Write a JavaScript function to uncamelize a string.
+// function unCamelize(input, separator){
+// for(letter of input){
+//     if(!separator){
+//         if(letter.toUpperCase()){
+//             console.log("input after joining",input);
+//             input = input.toLowerCase();
+//         }
+//     }
+// }
+// }
+
+// console.log(unCamelize("JavaScriptExercises"));
+
+//13. Write a JavaScript function to concatenates a given string n times (default is 1).
+// function repeat(input,n){
+//     for(let i = 0; i < n; i++){
+//         input += input;
+//         i++;
+//     }
+//     return input;
+// }
+
+// console.log(repeat("JS",2));
+
+//14. Write a JavaScript function to insert a string within a string at a particular position (default is 1).
+
+// function insert(input, insertInput, position){
+//     if(!position){
+//         position = 0;
+//     }
+//     if(!insertInput){
+//         insertInput = " ";
+//     }
+//     let inputSliced = input.slice(0, position);
+//     console.log("inputSliced ->",inputSliced);
+//     let b = inputSliced + insertInput;
+//     console.log("b ->", b);
+//     let c = input.slice(position);
+//     console.log("c ->",c);   
+//     return c;
+// }
+
+// console.log(insert("JS","I love", 1));
+
+
+//15. Write a JavaScript function to humanized number (Formats a number to a human-readable string)
+// with the correct suffix such as 1st, 2nd, 3rd or 4th
+
+// function humanize_format(number){
+//     let suffix;
+//     number = number.toString();
+//     let last_digit = number.slice(-1);
+//     console.log(last_digit);
+//     if(last_digit == 2){
+//         suffix = "nd"
+//     }else if(last_digit == 1){
+//         suffix = "st";
+//     }else if(last_digit == 3){
+//         suffix = "rd";
+//     }else{
+//         suffix = "th";
+//     }
+//     return number+suffix;
+// }
+// console.log(humanize_format(324231));
+
+// Write a JavaScript function to truncates a string if it is longer than the specified number of characters.
+//Truncated strings will end with a translatable ellipsis sequence ("…") (by default) or specified characters
+
+
+
