@@ -157,22 +157,14 @@
 
 //11. Write a JavaScript function to convert a string into camel case
 // function camelize(input){
-//   let arrayOfInput = input.split(" ");
-//   arrayOfInput[]
+  
 // }
 
 // console.log(camelize("JavaScript Exercises"));
 
 //12. 12. Write a JavaScript function to uncamelize a string.
 // function unCamelize(input, separator){
-// for(letter of input){
-//     if(!separator){
-//         if(letter.toUpperCase()){
-//             console.log("input after joining",input);
-//             input = input.toLowerCase();
-//         }
-//     }
-// }
+
 // }
 
 // console.log(unCamelize("JavaScriptExercises"));
@@ -230,7 +222,7 @@
 // }
 // console.log(humanize_format(324231));
 
-// Write a JavaScript function to truncates a string if it is longer than the specified number of characters.
+//16 Write a JavaScript function to truncates a string if it is longer than the specified number of characters.
 //Truncated strings will end with a translatable ellipsis sequence ("…") (by default) or specified characters
 
 
